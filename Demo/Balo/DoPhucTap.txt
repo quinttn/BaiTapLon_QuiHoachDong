@@ -1,0 +1,6 @@
+Gọi n là số lượng vật phẩm, và W là trọng lượng tối đa mà balo có thể chứa.
+Thuật toán sử dụng hai vòng lặp lồng nhau:
+Vòng lặp ngoài chạy từ từ i = 0 đến n, có độc phức tạp O(n)
+Vòng lặp trong chạy từ w = 0 đến W, có độ phức tạp O(W)
+Trong mỗi lần lặp, việc kiểm tra và gán giá trị trong bảng dp[i, w] có độ phức tạp O(1).
+Do đó, độ phức tạp của thuật toán là: O(n*W)

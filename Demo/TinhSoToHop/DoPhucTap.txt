@@ -1,0 +1,4 @@
+Thuật toán sử dụng hai vòng lặp lồng nhau:
+Vòng lặp ngoài chạy từ i=2 đến n, có độ phức tạp O(n).
+Vòng lặp trong chạy từ j=1 đến i−1, có độ phức tạp trung bình O(n).
+Do đó, độ phức tạp thời gian của thuật toán là:O(n×n)=O(n^2)

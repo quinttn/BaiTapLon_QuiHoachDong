@@ -1,0 +1,2 @@
+Thuật toán sử dụng một mảng hai chiều memo với kích thước soDiem×2^soDiem để lưu trữ kết quả đã tính toán.
+Do đó, độ phức tạp không gian của thuật toán là O(soDiem×2^soDiem)
